@@ -1,0 +1,32 @@
+/* Make box 2 position absolute*/
+.box2 {
+  position: absolute;
+}
+
+/*Try setting a value for top/left and then for bottom/right */
+.box1 {
+  top: 100px;
+  left: 100px;
+}
+
+/*Don't change any code below this line*/
+body {
+  margin: 0; /* Just overriding the browser default to zero */
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+}
+.box1 {
+  background: red;
+}
+.box2 {
+  background: green;
+}
+.box3 {
+  background: blue;
+}
+.box4 {
+  background: orange;
+}
